@@ -1,0 +1,12 @@
+D:\Projetos\Cursos\testes-integracao\src\Alura.CoisasAFazer.Infrastructure\bin\Debug\netstandard2.0\Mock.CoisasAFazer.Infrastructure.deps.json
+D:\Projetos\Cursos\testes-integracao\src\Alura.CoisasAFazer.Infrastructure\bin\Debug\netstandard2.0\Mock.CoisasAFazer.Infrastructure.dll
+D:\Projetos\Cursos\testes-integracao\src\Alura.CoisasAFazer.Infrastructure\bin\Debug\netstandard2.0\Mock.CoisasAFazer.Infrastructure.pdb
+D:\Projetos\Cursos\testes-integracao\src\Alura.CoisasAFazer.Infrastructure\bin\Debug\netstandard2.0\Mock.CoisasAFazer.Core.dll
+D:\Projetos\Cursos\testes-integracao\src\Alura.CoisasAFazer.Infrastructure\bin\Debug\netstandard2.0\Mock.CoisasAFazer.Core.pdb
+D:\Projetos\Cursos\testes-integracao\src\Alura.CoisasAFazer.Infrastructure\obj\Debug\netstandard2.0\Mock.CoisasAFazer.Infrastructure.csprojAssemblyReference.cache
+D:\Projetos\Cursos\testes-integracao\src\Alura.CoisasAFazer.Infrastructure\obj\Debug\netstandard2.0\Mock.CoisasAFazer.Infrastructure.AssemblyInfoInputs.cache
+D:\Projetos\Cursos\testes-integracao\src\Alura.CoisasAFazer.Infrastructure\obj\Debug\netstandard2.0\Mock.CoisasAFazer.Infrastructure.AssemblyInfo.cs
+D:\Projetos\Cursos\testes-integracao\src\Alura.CoisasAFazer.Infrastructure\obj\Debug\netstandard2.0\Mock.CoisasAFazer.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Projetos\Cursos\testes-integracao\src\Alura.CoisasAFazer.Infrastructure\obj\Debug\netstandard2.0\Mock.CoisasAFazer.Infrastructure.csproj.CopyComplete
+D:\Projetos\Cursos\testes-integracao\src\Alura.CoisasAFazer.Infrastructure\obj\Debug\netstandard2.0\Mock.CoisasAFazer.Infrastructure.dll
+D:\Projetos\Cursos\testes-integracao\src\Alura.CoisasAFazer.Infrastructure\obj\Debug\netstandard2.0\Mock.CoisasAFazer.Infrastructure.pdb

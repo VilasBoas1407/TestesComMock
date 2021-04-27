@@ -1,0 +1,14 @@
+D:\Projetos\Cursos\testes-integracao\src\Alura.CoisasAFazer.Services\bin\Debug\netstandard2.0\Mock.CoisasAFazer.Services.deps.json
+D:\Projetos\Cursos\testes-integracao\src\Alura.CoisasAFazer.Services\bin\Debug\netstandard2.0\Mock.CoisasAFazer.Services.dll
+D:\Projetos\Cursos\testes-integracao\src\Alura.CoisasAFazer.Services\bin\Debug\netstandard2.0\Mock.CoisasAFazer.Services.pdb
+D:\Projetos\Cursos\testes-integracao\src\Alura.CoisasAFazer.Services\bin\Debug\netstandard2.0\Mock.CoisasAFazer.Core.dll
+D:\Projetos\Cursos\testes-integracao\src\Alura.CoisasAFazer.Services\bin\Debug\netstandard2.0\Mock.CoisasAFazer.Infrastructure.dll
+D:\Projetos\Cursos\testes-integracao\src\Alura.CoisasAFazer.Services\bin\Debug\netstandard2.0\Mock.CoisasAFazer.Core.pdb
+D:\Projetos\Cursos\testes-integracao\src\Alura.CoisasAFazer.Services\bin\Debug\netstandard2.0\Mock.CoisasAFazer.Infrastructure.pdb
+D:\Projetos\Cursos\testes-integracao\src\Alura.CoisasAFazer.Services\obj\Debug\netstandard2.0\Mock.CoisasAFazer.Services.csprojAssemblyReference.cache
+D:\Projetos\Cursos\testes-integracao\src\Alura.CoisasAFazer.Services\obj\Debug\netstandard2.0\Mock.CoisasAFazer.Services.AssemblyInfoInputs.cache
+D:\Projetos\Cursos\testes-integracao\src\Alura.CoisasAFazer.Services\obj\Debug\netstandard2.0\Mock.CoisasAFazer.Services.AssemblyInfo.cs
+D:\Projetos\Cursos\testes-integracao\src\Alura.CoisasAFazer.Services\obj\Debug\netstandard2.0\Mock.CoisasAFazer.Services.csproj.CoreCompileInputs.cache
+D:\Projetos\Cursos\testes-integracao\src\Alura.CoisasAFazer.Services\obj\Debug\netstandard2.0\Mock.CoisasAFazer.Services.csproj.CopyComplete
+D:\Projetos\Cursos\testes-integracao\src\Alura.CoisasAFazer.Services\obj\Debug\netstandard2.0\Mock.CoisasAFazer.Services.dll
+D:\Projetos\Cursos\testes-integracao\src\Alura.CoisasAFazer.Services\obj\Debug\netstandard2.0\Mock.CoisasAFazer.Services.pdb
