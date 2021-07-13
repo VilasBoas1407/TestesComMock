@@ -14,9 +14,6 @@ D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\bin\Debug\ne
 D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
 D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
 D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
-D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
-D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
-D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
 D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
 D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
@@ -33,9 +30,7 @@ D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\bin\Debug\ne
 D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\bin\Debug\netcoreapp3.1\testhost.dll
 D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
-D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\bin\Debug\netcoreapp3.1\Remotion.Linq.dll
 D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
-D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\bin\Debug\netcoreapp3.1\System.Interactive.Async.dll
 D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\bin\Debug\netcoreapp3.1\xunit.abstractions.dll
 D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\bin\Debug\netcoreapp3.1\xunit.assert.dll
 D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\bin\Debug\netcoreapp3.1\xunit.core.dll
@@ -124,3 +119,7 @@ D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\obj\Debug\ne
 D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\obj\Debug\netcoreapp3.1\Alura.CoisasAFazer.Testes.dll
 D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\obj\Debug\netcoreapp3.1\Alura.CoisasAFazer.Testes.pdb
 D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\obj\Debug\netcoreapp3.1\Alura.CoisasAFazer.Testes.genruntimeconfig.cache
+D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
