@@ -8,7 +8,7 @@ using System.Linq;
 using Alura.CoisasAFazer.Infrastructure;
 using Microsoft.Extensions.Options;
 using Microsoft.EntityFrameworkCore;
-
+using Moq;
 namespace Mock.CoisasAFazer.Testes
 {
     public class CadastraTarefaHandlerExecute
@@ -18,8 +18,9 @@ namespace Mock.CoisasAFazer.Testes
         {
             //Arrange
             var comando = new CadastraTarefa("Estudar XUnit", new Categoria("Estudo"), new DateTime(2021, 04, 28));
-
-            var repo = new RepositorioFake();
+            var options = new DbContextOptionsBuilder<DbTarefasContext>().UseInMemoryDatabase("DbTarefasContext").Options;
+            var context = new DbTarefasContext(options);
+            var repo = new RepositorioTarefa(context);
             var handler = new CadastraTarefaHandler(repo);
 
             //Act
@@ -50,6 +51,26 @@ namespace Mock.CoisasAFazer.Testes
             //Assert
             var tarefas = repo.ObtemTarefas(t => t.Titulo == "Estudar XUnit").FirstOrDefault();
             Assert.Null(tarefas);
+        }
+
+        [Fact]
+        public void QuandoExceptioForLancadaResultadoIsSucessDeveSerFalse()
+        {
+            //Arrange
+            var comando = new CadastraTarefa("Estudar XUnit", new Categoria("Estudo"), new DateTime(2021, 04, 28));
+            
+            var mock = new Mock<IRepositorioTarefas>();
+            mock.Setup(r => r.IncluirTarefas(It.IsAny<Tarefa[]>()))
+                .Throws(new Exception("Houve um erro na inclusão de tarefas"));
+            var repo = mock.Object;
+
+            var handler = new CadastraTarefaHandler(repo);
+
+            //Act
+            CommandResult resultado = handler.Execute(comando);
+
+            //Assert
+            Assert.False(resultado.IsSucess);
         }
     }
 }

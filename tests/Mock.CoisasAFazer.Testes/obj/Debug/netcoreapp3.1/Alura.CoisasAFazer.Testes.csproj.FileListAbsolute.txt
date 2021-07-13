@@ -123,3 +123,5 @@ D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\bin\Debug\ne
 D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
 D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
 D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\bin\Debug\netcoreapp3.1\Castle.Core.dll
+D:\Projetos\Cursos\testes-integracao\tests\Mock.CoisasAFazer.Testes\bin\Debug\netcoreapp3.1\Moq.dll
