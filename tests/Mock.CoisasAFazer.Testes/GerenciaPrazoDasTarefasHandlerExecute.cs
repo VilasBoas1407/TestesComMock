@@ -3,6 +3,7 @@ using Alura.CoisasAFazer.Core.Models;
 using Alura.CoisasAFazer.Infrastructure;
 using Alura.CoisasAFazer.Services.Handlers;
 using Microsoft.EntityFrameworkCore;
+using Moq;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,7 @@ namespace Alura.CoisasAFazer.Testes
         public void QuandoTarefasEstiveremAtrasadasDeveMudarSeuStatus()
         {
             //arrange
-            var compCateg = new Categoria(1,"Compras");
+            var compCateg = new Categoria(1, "Compras");
             var casasCateg = new Categoria(2, "Casa");
             var trabCateg = new Categoria(3, "Trabalho");
             var saudCateg = new Categoria(4, "Saúde");
@@ -40,14 +41,14 @@ namespace Alura.CoisasAFazer.Testes
                 new Tarefa(6, "Comprar ração", compCateg, new DateTime(2019,11,20), null, StatusTarefa.Criada)
             };
 
-   
+
             var options = new DbContextOptionsBuilder<DbTarefasContext>().UseInMemoryDatabase("DbTarefasContext").Options;
             var contexto = new DbTarefasContext(options);
             var repo = new RepositorioTarefa(contexto);
 
             repo.IncluirTarefas(tarefas.ToArray());
 
-            var comando = new GerenciaPrazoDasTarefas(new DateTime(2019,1,1));
+            var comando = new GerenciaPrazoDasTarefas(new DateTime(2019, 1, 1));
             var handler = new GerenciaPrazoDasTarefasHandler(repo);
 
             //act
@@ -56,6 +57,33 @@ namespace Alura.CoisasAFazer.Testes
             //assert
             var tarefasEmAtraso = repo.ObtemTarefas(t => t.Status == StatusTarefa.EmAtraso);
             Assert.Equal(4, tarefasEmAtraso.Count());
+        }
+
+        [Fact]
+        public void QuandoInvocadoDeveChamarAtualizarTarefasQuantidadeDeVezesDoTotalDeTarefasAtrasadas()
+        {
+            //arrange
+            var categ = new Categoria("Dummy");
+            var mock = new Mock<IRepositorioTarefas>();
+
+            var tarefas = new List<Tarefa>{
+                new Tarefa(1,"Tirar o lixo", categ, new DateTime(2018,12,31), null, StatusTarefa.Criada),
+                new Tarefa(4,"Fazer almoço", categ, new DateTime(2017,12,1),null,StatusTarefa.Criada),
+                new Tarefa(9, "Ir á academia", categ, new DateTime(2018,12,31), null, StatusTarefa.Criada),
+            };
+
+            mock.Setup(r => r.ObtemTarefas(It.IsAny<Func<Tarefa, bool>>()))
+                .Returns(tarefas);
+            var repo = mock.Object;
+
+            var comando = new GerenciaPrazoDasTarefas(new DateTime(2019, 1, 1));
+            var handler = new GerenciaPrazoDasTarefasHandler(repo);
+
+            //act
+            handler.Execute(comando);
+            
+            //assert
+            mock.Verify(r => r.AtualizarTarefas(It.IsAny<Tarefa[]>()), Times.Once());
         }
     }
 }
